@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 1350px;
+    color: #3A3A3A;
+}
+
+/* Navber Section Start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    align-items: center;
+}
+
+.nav-header {
+    padding-left: 120px;
+    width: 700;
+    font-size: 24px;
+}
+
+.nav-menu {
+    padding-right: 120px;
+}
+
+.nav-menu a,
+i {
+    width: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    text-decoration: none;
+    padding-left: 34px;
+}
+
+/* End navber section */
+
+
+/* Discribe camera section start */
+.camera-discription {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.articel-section {
+    width: 50%;
+    padding: 0px 120px;
+}
+
+.articel-section h1 {
+    font-size: 52px;
+    width: 700;
+}
+
+.articel-section p {
+    font-size: 16px;
+    width: 600;
+    margin: 16px 0px;
+}
+
+button {
+    background-color: #E02C6D;
+    color: #fff;
+    font-size: 16px;
+    width: 700;
+    border: none;
+    border-radius: 41px;
+    padding: 13px;
+}
+
+.fa-arrow-right-long {
+    padding-right: 10px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.image-section {
+    position: relative;
+    width: 50%;
+}
+
+.image-section img {
+    width: 380px;
+    height: 380px;
+}
+
+/* Discribe camera section end */
+
+/* Design Ecommerce section start */
+.companis-main{
+    margin-bottom: 100px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    width: 75%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.companis-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 50px ;
+}
+.companis{
+    padding-left: 36px;
+}
+
+
+/* Design Ecommerce section end */
