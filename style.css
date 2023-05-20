@@ -94,9 +94,10 @@ button {
 /* Discribe camera section end */
 
 /* Design Ecommerce section start */
-.companis-main{
+.companis-main {
     margin-bottom: 100px;
 }
+
 hr {
     border: 0;
     height: 1px;
@@ -104,17 +105,149 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .companis-name {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 17px 50px ;
+    padding: 17px 50px;
 }
-.companis{
+
+.companis {
     padding-left: 36px;
 }
 
-
 /* Design Ecommerce section end */
+
+/* Populer collection section start*/
+
+.populer-section h1 {
+    width: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.popular-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.products-discription {
+    width: 300px;
+    height: 420px;
+}
+
+.products-discription img {
+    width: 270px;
+    height: 220px;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.products-discription h2 {
+    width: 500;
+    font-size: 28px;
+    color: #18191F;
+    padding-left: 14px;
+    margin-bottom: 6px;
+}
+
+.products-discription h4 {
+    width: 400;
+    font-size: 24px;
+    color: #000000;
+    opacity: 87%;
+    padding-left: 14px;
+    margin-bottom: 5px;
+}
+
+.icon-section {
+    /* display: flex; */
+    padding-left: 14px;
+}
+
+.icon {
+    color: #FB8200;
+    height: 14px;
+    width: 14px;
+    margin: 0;
+    padding: 0;
+}
+.icon-section span{
+    font-family: 'Roboto', sans-serif;
+    color:#5E6366;
+    width: 700;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.products-discription h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 14px;
+    color: #787885;
+    padding-top: 14px;
+    margin-bottom: 16px;
+}
+
+.corner{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 85px;
+}
+.corner a{
+    color: #E02C6D;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.corner i{
+    color: #E02C6D;
+    padding-left: 14px;
+}
+/* Populer collection section end*/
+
+/* Featured section start  */
+.featured{
+    display: flex;
+    align-items: center;
+    margin: 75px;
+}
+.imagse-section{
+    width: 50%;
+}
+.imagse-section img{
+    width: 400px;
+    height: 270px;
+}
+.text-section{
+    width: 50%;
+}
+.text-section h1{
+    font-size: 38px;
+    color:#0A0826;
+    margin: 15px 0;
+}
+.text-section p{
+    font-size: 16px;
+    color:#6C6C6C;
+}
+.join-btn{
+    margin-top: 30px;
+    width: 120px;
+    border: none;
+    background-color: #E02C6D;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px;
+}
+.text-section i{
+    padding-left: 15px;
+    color: #fff;
+}
+
+/* Featured section end  */
