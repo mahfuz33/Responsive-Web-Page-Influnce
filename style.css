@@ -176,14 +176,16 @@ hr {
     margin: 0;
     padding: 0;
 }
-.icon-section span{
+
+.icon-section span {
     font-family: 'Roboto', sans-serif;
-    color:#5E6366;
+    color: #5E6366;
     width: 700;
     font-size: 14px;
     padding-left: 10px;
 }
-.products-discription h3{
+
+.products-discription h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding-left: 14px;
@@ -192,51 +194,60 @@ hr {
     margin-bottom: 16px;
 }
 
-.corner{
+.corner {
     display: flex;
     justify-content: end;
     margin-top: 50px;
     margin-bottom: 100px;
     margin-right: 85px;
 }
-.corner a{
+
+.corner a {
     color: #E02C6D;
     text-decoration: none;
     padding: 0;
     margin: 0;
 }
-.corner i{
+
+.corner i {
     color: #E02C6D;
     padding-left: 14px;
 }
+
 /* Populer collection section end*/
 
 /* Featured section start  */
-.featured{
+.featured {
     display: flex;
     align-items: center;
     margin: 75px;
 }
-.imagse-section{
+
+.imagse-section {
     width: 50%;
 }
-.imagse-section img{
+
+.imagse-section img {
     width: 400px;
     height: 270px;
 }
-.text-section{
+
+.text-section {
     width: 50%;
 }
-.text-section h1{
+
+.text-section h1 {
     font-size: 38px;
-    color:#0A0826;
+    color: #0A0826;
     margin: 15px 0;
 }
-.text-section p{
+
+.text-section p {
     font-size: 16px;
-    color:#6C6C6C;
+    color: #6C6C6C;
 }
-.join-btn{
+
+.join-btn {
     margin-top: 30px;
     width: 120px;
     border: none;
@@ -245,9 +256,41 @@ hr {
     font-size: 16px;
     padding: 12px;
 }
-.text-section i{
+
+.text-section i {
     padding-left: 15px;
     color: #fff;
 }
 
 /* Featured section end  */
+
+/* Footer section style  */
+footer {
+    background-color: #0A0826;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #D9DBE1;
+    padding-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons i {
+    color: #fff;
+}
